@@ -13,6 +13,7 @@
             body {
                 margin: 0;
                 padding: 0;
+
             }
 
             #logo {
@@ -26,11 +27,46 @@
 
             .topbar-section {
                 float: left;
-                border-left: 1px #CCCCCC solid;
                 height : 100%;
                
 
             }
+
+            #signin-img {
+                width: 30px;
+                margin-top: 13px;
+                height: 21px;
+                margin-left: 7px;
+                float: left;
+            }
+
+            #signin-text {
+                font-weight: bold;
+               position: relative;
+               top: 14px;
+               left: 8px;
+               float: left;
+              
+            }
+
+            #line {
+                margin-left: 50px;
+                margin-top: 9px;
+                height: 25px;
+            }
+
+            .items-top {
+                display: inline-block;
+                font-weight: bold;
+               font-size: 90%;
+              padding: 14px 10px 0 10px;
+              height: 27px;
+
+
+            }
+
+
+             
 
         </style>
     </head>
@@ -39,9 +75,51 @@
        <div id="top-bar">
         <img id ="logo" src="images/BBC-Logo.jpg">
         <div id="signin" class="topbar-section">
-           <img src="images/signingBBC.png">
-
+           <img id="signin-img"src="images/signingBBC.png">
+            <span id="signin-text">Sign in</span>
+            <img id ="line" src="images/line.png">
         </div>
+
+        <div class="items-top">
+          Home
+            
+        </div>
+
+        <div class="items-top">
+           News
+              
+          </div>
+          <div class="items-top">
+           Sport
+              
+          </div>
+
+          <div class="items-top">
+           Reel
+              
+          </div>
+
+          <div class="items-top">
+           Worklife
+              
+          </div>
+
+          <div class="items-top">
+            Travel
+              
+          </div>
+
+          <div class="items-top">
+           Future
+              
+          </div>
+
+          <div class="items-top">
+           Culture
+              
+          </div>
+        
+       
        </div>
 
     </body>
