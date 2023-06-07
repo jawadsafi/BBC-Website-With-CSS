@@ -69,8 +69,94 @@
                 border: none;
                 background-color: #E6E8EA;
                 font-weight: bold;
+                
+            }
+            
+
+            .clear {
+                clear: both;
+
             }
 
+            #menu-bar {
+                border-top: 1px solid #CCCCCC;
+                background-color: #BB1919;
+                width: 100%;
+                height: 100px;
+            }
+
+            #menu {
+
+                width: 1000px;
+                margin: 0 auto;
+            }
+
+            h1 {
+
+                padding:0;
+                margin: 0;
+                color:white;
+                font-size: 40px;
+                padding-top: 10px;
+
+            }
+
+            #menu-bar2 {
+
+                background-color: #A91717;
+                width: 100%;
+
+            }
+
+            #menu2{
+
+                width:1000px;
+                margin:0 auto;
+                margin-top: 14px;
+                height: 40px;
+                font-size: 1px;
+
+            }
+
+            #menu2 a {
+
+                color: white;
+                text-decoration: none;
+                padding: 0 10px;
+                border-right: 1px solid #BB4545;
+                font-size: 18px;
+                position: relative;
+                top: 10px;
+            }
+
+            #menu2 a:hover{
+                text-decoration: underline;
+            }
+
+            .no-border {
+
+                border: none !important ;
+            }
+
+            #down-arrow {
+                float: right;
+                height: 10px;
+                margin-top: 15px;
+                position: relative;
+                left: -8px;
+
+            }
+
+            #signin-text a {
+
+                text-decoration: none;
+                color: black;
+            }
+
+            .items-top a {
+                text-decoration: none;
+                color: black;
+            }
 
              
 
@@ -82,46 +168,52 @@
         <img id ="logo" src="images/BBC-Logo.jpg">
         <div id="signin" class="topbar-section">
            <img id="signin-img"src="images/signingBBC.png">
-            <span id="signin-text">Sign in</span>
+            <span id="signin-text"><a href="https://account.bbc.com/signin?realm=%2F&clientId=Account&context=news&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews%2Fbusiness&userOrigin=news_gnl&isCasso=false&action=sign-in&redirectUri=https%3A%2F%2Fsession.bbc.com%2Fsession%2Fcallback%3Frealm%3D%2F&service=IdSignInService&nonce=ICLBQZ2X-7UDg8Vihhn82lKemh8iW-cycsk4">Sign in</a></span>
             <img id ="line" src="images/line.png">
         </div>
 
         <div class="items-top">
-          Home
+          <a href="https://www.bbc.com/">Home</a>
             
         </div>
 
         <div class="items-top">
-           News
+           <a href="https://www.bbc.com/news">News</a>
               
           </div>
           <div class="items-top">
-           Sport
+
+           <a href="https://www.bbc.com/sport">Sport</a>
               
           </div>
 
           <div class="items-top">
-           Reel
+           <a href="https://www.bbc.com/reel">Reel</a>
               
           </div>
 
           <div class="items-top">
-           Worklife
+            <a href="https://www.bbc.com/worklife">Worklife</a>
               
           </div>
 
           <div class="items-top">
-            Travel
+
+            <a href="https://www.bbc.com/travel">Travel</a>
+            
               
           </div>
 
           <div class="items-top">
-           Future
+
+            <a href="https://www.bbc.com/future">Future</a>
+           
               
           </div>
 
           <div class="items-top">
-             Culture
+            <a href="https://www.bbc.com/culture">Culture</a>
+             
            <img  src="images/dots.png">
               
           </div>
@@ -130,6 +222,42 @@
             
        
     
+       </div>
+
+       <div class="clear"> </div>
+
+       <div id="menu-bar">
+           
+            <div id="menu">
+
+                <h1>NEWS</h1>
+
+            </div>
+
+            
+
+            <div id="menu-bar2">
+                <div id="menu2">
+                    <a href="https://www.bbc.com/news">Home</a>
+                    <a href="https://www.bbc.com/news/world-60525350">War in Ukraine</a>
+                    <a href="https://www.bbc.com/news/science-environment-56837908">Climate</a>
+                    <a href="https://www.bbc.com/news/av/10462520">Video</a>
+                    <a href="https://www.bbc.com/news/world">World</a>
+                    <a href="https://www.bbc.com/news/world/us_and_canada">US & Canada</a>
+                    <a href="https://www.bbc.com/news/uk">UK</a>
+                    <a href="https://www.bbc.com/news/business">Business</a>
+                    <a href="https://www.bbc.com/news/technology">Tech</a>
+                    <a href="https://www.bbc.com/news/science_and_environment">Science</a>
+                    <a href="https://www.bbc.com/news/stories">Stories</a>
+                    <a href="https://www.bbc.com/news/health">Health</a>
+                    <a href="" class="no-border">More</a>
+
+                    <img id="down-arrow" src="images/more.png">
+
+
+                </div>
+            </div>
+
        </div>
 
     </body>
